@@ -57,8 +57,8 @@ Future<List<dynamic>> fetchAnimeData() async {
   );
 
   final headers = {
-    'X-RapidAPI-Key': 'd9a90fe7edmsha38a206f698e96cp11203djsn6cb7b5339d6e',
-    'X-RapidAPI-Host': 'anime-db.p.rapidapi.com',
+    'X-RapidAPI-Key': 'x',
+    'X-RapidAPI-Host': 'x',
   };
 
   final response = await http.get(url, headers: headers);
